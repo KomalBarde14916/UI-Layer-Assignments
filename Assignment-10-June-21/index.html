@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pricelist">
+        <h1>Bill</h1>
+        <table id="table">
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Maggie</td>
+
+                <td>
+                    <button onclick="decrement()" id="button1">-</button>
+                    <span id="result">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <button onclick="increment()" id="button2">+</button> <br>
+
+
+                </td>
+                <td id="maggiQunId">10</td>
+                <td id="maggiTotId"></td>
+            </tr>
+
+
+
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

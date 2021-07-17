@@ -1,0 +1,25 @@
+span {
+    display: flexbox;
+    border: solid 2px rgb(12, 11, 11);
+    width: 100px;
+    height: 100px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 70px;
+}
+
+td {
+    padding: 10px;
+}
